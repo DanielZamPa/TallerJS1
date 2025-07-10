@@ -1,4 +1,4 @@
-const PromptSync = require("prompt-sync");
+const Prompt = require("prompt-sync");
 
 //Ejercicio 1
 let nombre = "Daniel";
