@@ -7,7 +7,7 @@ const prompt = require("prompt-sync")();
 let edad = Number(prompt("Por favor ingrese su edad: "));
 
 //Evaluacion edad
-if (edad <= 18){
+if (edad >= 18){
     //Impresion resultado
     console.log("Puedes entrar.");
 }else{
